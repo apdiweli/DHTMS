@@ -1,0 +1,18 @@
+.notifications-page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Custom scrollbar for list if needed */
+.notifications-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.notifications-list::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 3px;
+}
+
+.notifications-list::-webkit-scrollbar-track {
+    background-color: #f1f5f9;
+}

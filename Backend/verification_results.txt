@@ -1,0 +1,22 @@
+
+--- TESTING TAX CALCULATION LOGIC ---
+
+1. Apartment (8 units @ $10/unit):
+Expected: 80. Actual: 80
+Breakdown: 8 Units * $10
+
+2. Luxury Villa ($200k Value @ 0.5%):
+Expected: 1000. Actual: 1000
+Breakdown: 0.5% of Property Value ($200000)
+
+3. Warehouse (1000m2 @ $1/m2):
+Expected: 1000. Actual: 1000
+Breakdown: 1000 m² (Floor Area) * $1
+
+4. Mosque (Exempt):
+Expected: 0. Actual: 0
+Breakdown: undefined
+
+5. General Land (600m2 @ $0.1/m2):
+Expected: 60. Actual: 60
+Breakdown: 600 m² (Land Area) * $0.1
